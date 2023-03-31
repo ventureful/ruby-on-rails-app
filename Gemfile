@@ -17,7 +17,7 @@ ruby "3.1.1"
     gem 'jquery-rails'
 
 
-    #gem 'bootstrap', '~> 5.2.3'
+    gem 'bootstrap', '~> 5.2.3'
 
 
 
