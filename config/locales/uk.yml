@@ -3,3 +3,11 @@ uk:
   welcome:
     title: "Railways"
     description: "Railways - спільнота для розробників на Ruby on Rails що діляться ідеями та допомагають один одному. Приєднуйтесь!"
+  header:
+    menu:
+      news: "Новини"
+      reviews: "Огляди"
+      advices: "Поради"
+      other: "Інше"
+      about: "Про проект"
+
