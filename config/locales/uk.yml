@@ -10,4 +10,7 @@ uk:
       advices: "Поради"
       other: "Інше"
       about: "Про проект"
+  articles:
+    buttons:
+      new: "Нова стаття"
 
