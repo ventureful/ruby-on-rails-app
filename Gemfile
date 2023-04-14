@@ -20,6 +20,8 @@ ruby "3.1.1"
     gem 'bootstrap', '~> 5.2.3'
 
 
+    gem 'devise'
+    gem 'devise-i18n'
 
 
 
