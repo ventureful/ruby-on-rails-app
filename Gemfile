@@ -24,6 +24,8 @@ ruby "3.1.1"
     gem 'devise-bootstrap-views', '~> 1.0'
 
 
+    gem 'image_processing'
+    gem 'aws-sdk-s3', require: false
 
 
 
