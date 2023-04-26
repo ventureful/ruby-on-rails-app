@@ -1,5 +1,12 @@
 <div id="<%= dom_id article %>">
+<div class= 'text-center'>
+  <%= image_tag article.preview_img if article.preview_img.present? %>
+</div>
   <h1 class="text-center">
+    <%= article.title %>
+  </h1>
+  <p>
+    <strong>Title:</strong>
     <%= article.title %>
   </h1>
   <p>
