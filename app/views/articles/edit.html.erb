@@ -1,10 +1,12 @@
-<h1>Editing article</h1>
-
-<%= render "form", article: @article %>
-
+<h1>
+<%= t('articles.buttons.edit')%>
+</h1>
+  <div class='col-10 offset-1'>
+    <%= render "form", article: @article %>
+  </div>
+  
 <br>
 
 <div>
-  <%= link_to "Show this article", @article %> |
-  <%= link_to "Back to articles", articles_path %>
+  <%= link_to t('buttons.all_articles'), articles_path %>
 </div>

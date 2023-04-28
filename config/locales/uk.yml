@@ -1,15 +1,4 @@
 uk:
-  activerecord:
-    errors:
-      models:
-        article:
-          attributes:
-            title:
-              blank: 'не може бути порожнім'
-            body:
-              blank: 'не може бути порожнім'
-            preview_img:
-              blank: 'не може бути порожнім'
   hello: "Hello world"
   welcome:
     title: "Railways"
@@ -23,5 +12,17 @@ uk:
       about: "Про проект"
   articles:
     buttons:
-      new: "Нова стаття"
+      new: Нова стаття
+      edit: Редагування статті
+    form:
+      labels:
+        title: Назва статті
+        preview_img: Зображення на загальній сторінці
+        body: Текст статті
+  buttons:
+    edit: Редагувати
+    show: Переглянути
+    delete: Видалити
+    all_articles: 'Всі статті'
+    up: 'Вгору'
 
