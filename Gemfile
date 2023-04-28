@@ -15,7 +15,7 @@ ruby "3.1.1"
     gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
     gem "bootsnap", require: false
     gem 'jquery-rails'
-
+    gem 'rails-i18n'
 
     gem 'bootstrap', '~> 5.2.3'
 
@@ -26,6 +26,7 @@ ruby "3.1.1"
 
     gem 'image_processing'
     gem 'aws-sdk-s3', require: false
+    gem 'cancancan'
 
 
 

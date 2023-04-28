@@ -1,3 +1,11 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "actiontext.css";
 @import "bootstrap";
+
+.inline-right {
+    float: right !important;
+  }
+  .mr-5 {
+    margin-right: 5px !important;
+  }
+  

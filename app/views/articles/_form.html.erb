@@ -12,16 +12,16 @@
   <% end %>
 
   <div>
-    <%= form.label :title, style: "display: block" %>
-    <%= form.text_field :title %>
+    <%= form.label :title, t('articles.form.labels.title'), style: "display: block" %>
+    <%= form.text_field :title, class: 'w-100'%>
   </div>
   <div>
-      <%= form.label :preview_image, style: "display: block" %>
+      <%= form.label :preview_image, t('articles.form.labels.preview_img'), style: "display: block" %>
       <%= form.file_field :preview_img %>
     </div>
 
   <div class="field">
-    <%= form.label :body, style: "display: block" %>
+    <%= form.label :body,t('articles.form.labels.body'), style: "display: block" %>
 
     <%= form.rich_text_area :body %>
   </div>
